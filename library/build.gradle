@@ -1,8 +1,8 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion "23.0.2"
+    compileSdkVersion 26
+    buildToolsVersion "26.0.2"
 
     defaultConfig {
         minSdkVersion 14
@@ -21,8 +21,8 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 }
-
-ext {
+//↓往下全部注释
+/*ext {
     PUBLISH_GROUP_ID = 'com.wang.avi'
     PUBLISH_VERSION = '2.1.3'
     PUBLISH_DES = 'Nice loading animations for Android'
@@ -31,6 +31,6 @@ ext {
     WEBSITE_URL = 'https://github.com/81813780/AVLoadingIndicatorView'
     ISSUE_TRACKER_URL = 'https://github.com/81813780/AVLoadingIndicatorView/issues'
     VSC_URL = 'https://github.com/81813780/AVLoadingIndicatorView'
-}
+}*/
 
-apply from: 'https://raw.githubusercontent.com/andforce/release-android-lib-to-jcenter/master/bintray.gradle'
+//apply from: 'https://raw.githubusercontent.com/andforce/release-android-lib-to-jcenter/master/bintray.gradle'
