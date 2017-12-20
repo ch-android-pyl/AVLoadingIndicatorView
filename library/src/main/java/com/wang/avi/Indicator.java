@@ -15,7 +15,7 @@ import java.util.HashMap;
 
 /**
  * Created by Jack Wang on 2016/8/5.
- * 基于drawable 实现animatable接口
+ 测试update
  */
 
 public abstract class Indicator extends Drawable implements Animatable {
